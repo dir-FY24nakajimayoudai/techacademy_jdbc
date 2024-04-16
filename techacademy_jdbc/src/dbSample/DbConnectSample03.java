@@ -19,7 +19,7 @@ public class DbConnectSample03 {
         try {
             // 1. ドライバのクラスをJava上で読み込む
             Class.forName("com.mysql.cj.jdbc.Driver");
-
+            
             // 2. DBと接続する
             con = DriverManager.getConnection("jdbc:mysql://localhost/world?useSSL=false&allowPublicKeyRetrieval=true",
                                         "root", "4n6Pm@2~rmKKD");
